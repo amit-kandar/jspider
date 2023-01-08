@@ -9,10 +9,12 @@ class BankDetails {
 		long account_number = 000000000000l;
 		String ifsc_code = "SBIN0010";
 		double balance = 45000.0;
+		String Ac_holder_name = "Amit Kandar";
 		
 		System.out.println(bank_name);
 		System.out.println(account_number);
 		System.out.println(ifsc_code);
 		System.out.println(balance);
+		System.out.println(Ac_holder_name);
 	}
 }
